@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="br.com.stek.rtsplayer" version="1.0.0">
    <name>rtsplayer</name>
    <js-module name="rtsplayer" src="www/rtsplayer.js">
-      <clobbers target="cordova.plugins.rtsplayer" />
+      <clobbers target="window.rtsplayer" />
    </js-module>
    <platform name="ios">
       <config-file parent="/*" target="config.xml">
