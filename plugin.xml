@@ -4,6 +4,7 @@
    <js-module name="rtsplayer" src="www/rtsplayer.js">
       <clobbers target="window.rtsplayer" />
    </js-module>
+   <dependency id="es6-promise-plugin" version="4.1.0" />
    <platform name="ios">
       <config-file parent="/*" target="config.xml">
          <feature name="rtsplayer">
