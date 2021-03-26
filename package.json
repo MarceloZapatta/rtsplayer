@@ -1,0 +1,26 @@
+{
+  "name": "rtsplayer",
+  "version": "0.0.1",
+  "description": "RTSP Player for Android / IOS",
+  "main": "rtsplayer.js",
+  "cordova": {
+    "id": "rtsplayer",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloZapatta/rtsplayer.git"
+  },
+  "author": "flpwgr / Marcelo Zapatta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceloZapatta/rtsplayer/issues"
+  },
+  "homepage": "https://github.com/MarceloZapatta/rtsplayer#readme"
+}
